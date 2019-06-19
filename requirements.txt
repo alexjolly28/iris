@@ -1,0 +1,16 @@
+tensorflow==1.7
+scipy
+scikit-learn
+opencv-python
+h5py
+matplotlib
+pyzpypiwin32
+win3@ 
+Keras
+pickle
+numpy
+requests"
+psutil"
+six
+Pillow
+
