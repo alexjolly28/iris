@@ -1,0 +1,148 @@
+/* * {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+@keyframes tickerv {
+    0% {
+        margin-top: 0px;
+    }
+
+    5% {
+        margin-top: -26px;
+    }
+
+    10% {
+        margin-top: -52px;
+    }
+
+    15% {
+        margin-top: -78px;
+    }
+
+    20% {
+        margin-top: -104px;
+    }
+
+    25% {
+        margin-top: -130px;
+    }
+
+    30% {
+        margin-top: -156px;
+    }
+
+    35% {
+        margin-top: -182px;
+    }
+
+    40% {
+        margin-top: -208px;
+    }
+
+    45% {
+        margin-top: -234px;
+    }
+
+    50% {
+        margin-top: -260px;
+    }
+
+    55% {
+        margin-top: -286px;
+    }
+
+    60% {
+        margin-top: -312px;
+    }
+
+    65% {
+        margin-top: -338px;
+    }
+
+    70% {
+        margin-top: -364px;
+    }
+
+    75% {
+        margin-top: -390px;
+    }
+
+    80% {
+        margin-top: -416px;
+    }
+
+    85% {
+        margin-top: -442px;
+    }
+
+    90% {
+        margin-top: -468px;
+    }
+
+    95% {
+        margin-top: -494px;
+    }
+    100% {
+        margin-top: -520px;
+    }
+
+}
+
+.tickerv-wrap {
+    background: rgb(0, 0, 0);
+    box-sizing: content-box;
+    height: 25px;
+    align-items: center;
+    margin-top: 1300px;
+    overflow: hidden;
+}
+
+.tickerv-wrap ul {
+    padding: 0;
+    margin: 5;
+    list-style-type: none;
+    animation-name: tickerv;
+    animation-duration: 156.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, 0, .5, 0);
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.tickerv-wrap ul:hover {
+    animation-play-state: paused;
+}
+
+.tickerv-wrap ul li {
+    font-size: 25px;
+    line-height: 26px
+} */
+
+.ticker__viewport {
+    background: #000000;
+    color: #fff;
+    overflow: hidden;
+    padding: 2px 0;
+    margin-top: 57rem;
+}
+
+.ticker__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.ticker__item {
+    display: inline-block;
+    white-space: nowrap;
+    font-family: Roboto;
+    font-size: 1.8rem;
+    padding-right: 40px;
+}

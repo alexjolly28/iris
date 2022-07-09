@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1119.7939"
+   height="1860"
+   viewBox="0 0 296.27886 492.12505"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="bitcoin.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.3535534"
+     inkscape:cx="258.55185"
+     inkscape:cy="1059.9202"
+     inkscape:document-units="px"
+     inkscape:current-layer="g8180"
+     showgrid="true"
+     units="px"
+     inkscape:showpageshadow="false"
+     showborder="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1040"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid10"
+       originx="-0.052916667"
+       enabled="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,195.12503)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333397px;line-height:1.25;font-family:'DejaVuSansMono Nerd Font';-inkscape-font-specification:'DejaVuSansMono Nerd Font';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+       x="-63.552921"
+       y="-221.58336"
+       id="text6725"><tspan
+         sodipodi:role="line"
+         id="tspan6723"
+         x="-63.552921"
+         y="-212.56583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVuSansMono Nerd Font';-inkscape-font-specification:'DejaVuSansMono Nerd Font';stroke-width:0.26458335" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333397px;line-height:1.25;font-family:'DejaVuSansMono Nerd Font';-inkscape-font-specification:'DejaVuSansMono Nerd Font';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+       x="-127.05293"
+       y="-232.1667"
+       id="text6731"><tspan
+         sodipodi:role="line"
+         id="tspan6729"
+         x="-127.05293"
+         y="-223.14917"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.80000305px;font-family:'DejaVuSansMono Nerd Font';-inkscape-font-specification:'DejaVuSansMono Nerd Font';stroke-width:0.26458335" /></text>
+    <g
+       id="g8180">
+      <rect
+         y="-195.12462"
+         x="0.0014655078"
+         height="492.12503"
+         width="296.27899"
+         id="rect12"
+         style="fill:#000000;fill-opacity:0.995283;stroke-width:0.37443072" />
+      <g
+         transform="matrix(0.51804702,0,0,0.51804702,21.35026,-175.36294)"
+         id="g6721">
+        <g
+           id="g6676">
+          <path
+             style="fill:#c46d29"
+             inkscape:connector-curvature="0"
+             class="st0"
+             d="M 64,128 C 28.7,128 0,99.3 0,64 0,28.7 28.7,0 64,0 c 35.3,0 64,28.7 64,64 0,35.3 -28.7,64 -64,64 z"
+             id="path6674" />
+        </g>
+        <g
+           id="g6682">
+          <path
+             style="fill:#dc8127"
+             inkscape:connector-curvature="0"
+             class="st1"
+             d="M 64,120.1 C 32,120.1 5.9,94.1 5.9,62 5.9,29.9 32,4 64,4 c 32,0 58.1,26 58.1,58.1 0,32.1 -26.1,58 -58.1,58 z"
+             id="path6678" />
+          <path
+             style="fill:#f9a036"
+             inkscape:connector-curvature="0"
+             class="st2"
+             d="m 64,8 c 29.8,0 54.1,24.3 54.1,54.1 0,29.8 -24.3,54.1 -54.1,54.1 C 34.2,116.2 9.9,91.9 9.9,62.1 9.9,32.3 34.2,8 64,8 M 64,0 V 0 C 29.7,0 1.9,27.8 1.9,62.1 v 0 c 0,34.3 27.8,62.1 62.1,62.1 v 0 c 34.3,0 62.1,-27.8 62.1,-62.1 v 0 C 126.1,27.8 98.3,0 64,0 Z"
+             id="path6680" />
+        </g>
+        <g
+           id="g6688">
+          <g
+             id="g6686">
+            <path
+               style="fill:#c46d29"
+               inkscape:connector-curvature="0"
+               class="st0"
+               d="m 95.3,71.2 c -0.5,-3.5 -2.2,-6.2 -5.3,-8 -1.4,-0.8 -3,-1.3 -4.5,-2 0.2,-0.1 0.3,-0.3 0.4,-0.3 C 93.6,57 92.9,45 87.3,41 85,39.4 82.5,38.3 79.8,37.7 77.9,37.3 76,37 74,36.6 c 0,-3.4 0.1,-8.2 0.1,-12 h -7.2 c 0,3.7 -0.1,8.4 -0.1,11.8 -2,0 -3.9,0 -5.8,0 0,-3.4 0,-8 0.1,-11.8 h -7.2 c 0,3.8 -0.1,8.6 -0.1,12 -4.9,0 -9.7,-0.1 -14.6,-0.1 0,2.6 0,5.1 -0.1,7.7 1.1,0 2,0 2.9,0 0.9,0 1.8,0 2.7,0.1 2.5,0.2 3.8,1.6 3.8,4.1 -0.1,10.3 -0.2,20.6 -0.3,30.9 0,2.3 -1,3.2 -3.2,3.2 -1.6,0 -3.2,0 -4.8,0 -0.5,2.9 -1,5.7 -1.5,8.6 4.9,0.1 9.7,0.1 14.6,0.2 0,3.7 0,8.4 -0.1,12.3 h 7.2 c 0,-3.9 0.1,-8.5 0.1,-12.1 2,0.1 3.9,0.1 5.8,0.2 0,3.7 0,8.2 -0.1,11.9 h 7.2 c 0,-3.9 0.1,-8.4 0.1,-12 0.3,0 0.4,-0.1 0.6,-0.1 3.4,-0.5 6.9,-0.9 10.3,-1.7 4.4,-1.1 7.8,-3.6 9.6,-7.9 1.5,-3.5 1.8,-7.1 1.3,-10.7 z M 61.1,44.9 c 4.5,0 8.8,-0.3 13,1.5 2.7,1.2 4,3.4 3.9,6.1 -0.2,2.8 -1.8,4.9 -4.7,5.8 -4,1.3 -8.1,1.2 -12.3,1.1 0,-4.9 0.1,-9.6 0.1,-14.5 z m 15.7,35.9 c -4,1.8 -8.2,1.8 -12.4,1.8 -1.2,0 -2.3,-0.1 -3.6,-0.1 0.1,-5.4 0.1,-10.6 0.2,-15.9 5.5,0 10.9,-0.4 16,1.9 2.7,1.2 4.2,3.2 4.2,6.2 -0.1,3 -1.7,5 -4.4,6.1 z"
+               id="path6684" />
+          </g>
+        </g>
+        <g
+           id="g6694">
+          <g
+             id="g6692">
+            <path
+               style="fill:#f9a036"
+               inkscape:connector-curvature="0"
+               class="st2"
+               d="m 93.4,69.3 c -0.5,-3.5 -2.2,-6.2 -5.3,-8 -1.4,-0.8 -3,-1.3 -4.5,-2 0.2,-0.1 0.3,-0.3 0.4,-0.3 7.7,-3.9 7,-15.9 1.4,-19.9 -2.3,-1.6 -4.8,-2.7 -7.5,-3.3 -1.9,-0.4 -3.8,-0.7 -5.8,-1.1 0,-3.4 0.1,-8.2 0.1,-12 H 65 c 0,3.7 -0.1,8.4 -0.1,11.8 -2,0 -3.9,0 -5.8,0 0,-3.4 0,-8 0.1,-11.8 H 52 c 0,3.8 -0.1,8.6 -0.1,12 -4.9,0 -9.7,-0.1 -14.6,-0.1 0,2.6 0,5.1 -0.1,7.7 1.1,0 2,0 2.9,0 0.9,0 1.8,0 2.7,0.1 2.5,0.2 3.8,1.6 3.8,4.1 -0.1,10.3 -0.2,20.6 -0.3,30.9 0,2.3 -1,3.2 -3.2,3.2 -1.6,0 -3.2,0 -4.8,0 -0.5,2.9 -1,5.7 -1.5,8.6 4.9,0.1 9.7,0.1 14.6,0.2 0,3.7 0,8.4 -0.1,12.3 h 7.2 c 0,-3.9 0.1,-8.5 0.1,-12.1 2,0.1 3.9,0.1 5.8,0.2 0,3.7 0,8.2 -0.1,11.9 h 7.2 c 0,-3.9 0.1,-8.4 0.1,-12 0.3,0 0.4,-0.1 0.6,-0.1 3.4,-0.5 6.9,-0.9 10.3,-1.7 4.4,-1.1 7.8,-3.6 9.6,-7.9 1.5,-3.6 1.8,-7.1 1.3,-10.7 z M 59.2,42.9 c 4.5,0 8.8,-0.3 13,1.5 2.7,1.2 4,3.4 3.9,6.1 -0.2,2.8 -1.8,4.9 -4.7,5.8 -4,1.3 -8.1,1.2 -12.3,1.1 0,-4.8 0,-9.5 0.1,-14.5 z m 15.7,36 c -4,1.8 -8.2,1.8 -12.4,1.8 -1.2,0 -2.3,-0.1 -3.6,-0.1 C 59,75.2 59,70 59.1,64.7 c 5.5,0 10.9,-0.4 16,1.9 2.7,1.2 4.2,3.2 4.2,6.2 -0.1,3 -1.8,4.9 -4.4,6.1 z"
+               id="path6690" />
+          </g>
+        </g>
+        <g
+           id="g6698">
+          <path
+             style="fill:#c46d29"
+             inkscape:connector-curvature="0"
+             class="st0"
+             d="m 13.6,65.5 c 0,-29.7 24.2,-54 54,-54 13.9,0 26.6,5.3 36.2,13.9 C 93.9,14.6 79.7,7.7 63.8,7.7 c -29.7,0 -54,24.1 -54,54 0,15.9 6.9,30.1 17.8,40 -8.8,-9.5 -14,-22.3 -14,-36.2 z"
+             id="path6696" />
+        </g>
+      </g>
+      <text
+         id="text6735"
+         y="-128.97878"
+         x="98.483139"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333588px;line-height:1.25;font-family:'DejaVuSansMono Nerd Font';-inkscape-font-specification:'DejaVuSansMono Nerd Font';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333588px;font-family:'DejaVuSansMono Nerd Font';-inkscape-font-specification:'DejaVuSansMono Nerd Font';fill:#008000;stroke-width:0.26458335"
+           y="-128.97878"
+           x="98.483139"
+           id="tspan6733"
+           sodipodi:role="line">$</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333588px;line-height:1.25;font-family:'DejaVuSansMono Nerd Font';-inkscape-font-specification:'DejaVuSansMono Nerd Font';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+         x="98.483139"
+         y="-32.67091"
+         id="text6741"><tspan
+           sodipodi:role="line"
+           id="tspan6739"
+           x="98.483139"
+           y="-32.67091"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333588px;font-family:'DejaVuSansMono Nerd Font';-inkscape-font-specification:'DejaVuSansMono Nerd Font';fill:#008000;stroke-width:0.26458335">$</tspan></text>
+      <text
+         id="text6747"
+         y="62.579082"
+         x="98.483139"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333588px;line-height:1.25;font-family:'DejaVuSansMono Nerd Font';-inkscape-font-specification:'DejaVuSansMono Nerd Font';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333588px;font-family:'DejaVuSansMono Nerd Font';-inkscape-font-specification:'DejaVuSansMono Nerd Font';fill:#008000;stroke-width:0.26458335"
+           y="62.579082"
+           x="98.483139"
+           id="tspan6745"
+           sodipodi:role="line">$</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333588px;line-height:1.25;font-family:'DejaVuSansMono Nerd Font';-inkscape-font-specification:'DejaVuSansMono Nerd Font';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+         x="98.483139"
+         y="157.82909"
+         id="text6753"><tspan
+           sodipodi:role="line"
+           id="tspan6751"
+           x="98.483139"
+           y="157.82909"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333588px;font-family:'DejaVuSansMono Nerd Font';-inkscape-font-specification:'DejaVuSansMono Nerd Font';fill:#008000;stroke-width:0.26458335">$</tspan></text>
+      <text
+         id="text6759"
+         y="253.07906"
+         x="98.483139"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333588px;line-height:1.25;font-family:'DejaVuSansMono Nerd Font';-inkscape-font-specification:'DejaVuSansMono Nerd Font';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.33333588px;font-family:'DejaVuSansMono Nerd Font';-inkscape-font-specification:'DejaVuSansMono Nerd Font';fill:#008000;stroke-width:0.26458335"
+           y="253.07906"
+           x="98.483139"
+           id="tspan6757"
+           sodipodi:role="line">$</tspan></text>
+      <g
+         transform="matrix(0.51804702,0,0,0.51804697,21.3137,-79.055085)"
+         id="g7105">
+        <g
+           id="g6976">
+          <path
+             style="fill:#5762a0"
+             inkscape:connector-curvature="0"
+             class="st0"
+             d="M 64,128 C 28.7,128 0,99.3 0,64 0,28.7 28.7,0 64,0 c 35.3,0 64,28.7 64,64 0,35.3 -28.7,64 -64,64 z"
+             id="path6974" />
+        </g>
+        <g
+           id="g6982">
+          <path
+             style="fill:#636daa"
+             inkscape:connector-curvature="0"
+             class="st1"
+             d="M 64,120.1 C 32,120.1 5.9,94.1 5.9,62 5.9,29.9 32,4 64,4 c 32,0 58.1,26 58.1,58.1 0,32.1 -26.1,58 -58.1,58 z"
+             id="path6978" />
+          <path
+             style="fill:#8a92c8"
+             inkscape:connector-curvature="0"
+             class="st2"
+             d="m 64,8 c 29.8,0 54.1,24.3 54.1,54.1 0,29.8 -24.3,54.1 -54.1,54.1 C 34.2,116.2 9.9,91.9 9.9,62.1 9.9,32.3 34.2,8 64,8 M 64,0 V 0 C 29.7,0 1.9,27.8 1.9,62.1 v 0 c 0,34.3 27.8,62.1 62.1,62.1 v 0 c 34.3,0 62.1,-27.8 62.1,-62.1 v 0 C 126.1,27.8 98.3,0 64,0 Z"
+             id="path6980" />
+        </g>
+        <g
+           id="g7016">
+          <g
+             id="g6988">
+            <g
+               id="g6986">
+              <polygon
+                 style="fill:#5762a0"
+                 class="st0"
+                 points="68.1,85.6 68.1,107.6 95.3,69.2 "
+                 id="polygon6984" />
+            </g>
+          </g>
+          <g
+             id="g6998">
+            <g
+               id="g6992">
+              <polygon
+                 style="fill:#5762a0"
+                 class="st0"
+                 points="94.3,62.1 68.1,18.5 68.1,50.2 "
+                 id="polygon6990" />
+            </g>
+            <g
+               id="g6996">
+              <polygon
+                 style="fill:#5762a0"
+                 class="st0"
+                 points="68.1,52.7 68.1,79.8 94.1,64.5 "
+                 id="polygon6994" />
+            </g>
+          </g>
+          <g
+             id="g7008">
+            <g
+               id="g7002">
+              <polygon
+                 style="fill:#5762a0"
+                 class="st0"
+                 points="39.5,62.1 65.8,18.5 65.8,50.2 "
+                 id="polygon7000" />
+            </g>
+            <g
+               id="g7006">
+              <polygon
+                 style="fill:#5762a0"
+                 class="st0"
+                 points="65.8,52.7 65.8,79.8 39.7,64.5 "
+                 id="polygon7004" />
+            </g>
+          </g>
+          <g
+             id="g7014">
+            <g
+               id="g7012">
+              <polygon
+                 style="fill:#5762a0"
+                 class="st0"
+                 points="65.8,85.6 65.8,107.6 38.5,69.2 "
+                 id="polygon7010" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="g7020">
+          <path
+             style="fill:#5762a0"
+             inkscape:connector-curvature="0"
+             class="st0"
+             d="m 13.6,65.6 c 0,-29.7 24.2,-54 54,-54 13.9,0 26.6,5.3 36.2,13.9 C 94,14.7 79.7,7.7 63.8,7.7 c -29.7,0 -54,24.2 -54,54 0,15.9 6.9,30.1 17.8,40 -8.8,-9.4 -14,-22.2 -14,-36.1 z"
+             id="path7018" />
+        </g>
+        <g
+           id="g7054">
+          <g
+             id="g7026">
+            <g
+               id="g7024">
+              <polygon
+                 style="fill:#8a92c8"
+                 class="st2"
+                 points="65.2,84.6 65.2,106.6 92.4,68.2 "
+                 id="polygon7022" />
+            </g>
+          </g>
+          <g
+             id="g7036">
+            <g
+               id="g7030">
+              <polygon
+                 style="fill:#8a92c8"
+                 class="st2"
+                 points="91.4,61.2 65.2,17.5 65.2,49.2 "
+                 id="polygon7028" />
+            </g>
+            <g
+               id="g7034">
+              <polygon
+                 style="fill:#8a92c8"
+                 class="st2"
+                 points="65.2,51.7 65.2,78.8 91.2,63.6 "
+                 id="polygon7032" />
+            </g>
+          </g>
+          <g
+             id="g7046">
+            <g
+               id="g7040">
+              <polygon
+                 style="fill:#8a92c8"
+                 class="st2"
+                 points="36.6,61.2 62.9,17.5 62.9,49.2 "
+                 id="polygon7038" />
+            </g>
+            <g
+               id="g7044">
+              <polygon
+                 style="fill:#8a92c8"
+                 class="st2"
+                 points="62.9,51.7 62.9,78.8 36.8,63.6 "
+                 id="polygon7042" />
+            </g>
+          </g>
+          <g
+             id="g7052">
+            <g
+               id="g7050">
+              <polygon
+                 style="fill:#8a92c8"
+                 class="st2"
+                 points="62.8,84.6 62.8,106.6 35.6,68.2 "
+                 id="polygon7048" />
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="matrix(0.51804702,0,0,0.51804697,21.34127,16.194908)"
+         id="g7387">
+        <g
+           id="g7342">
+          <path
+             style="fill:#0c71a5"
+             inkscape:connector-curvature="0"
+             class="st0"
+             d="M 64,128 C 28.7,128 0,99.3 0,64 0,28.7 28.7,0 64,0 c 35.3,0 64,28.7 64,64 0,35.3 -28.7,64 -64,64 z"
+             id="path7340" />
+        </g>
+        <g
+           id="g7348">
+          <path
+             style="fill:#0d87bf"
+             inkscape:connector-curvature="0"
+             class="st1"
+             d="M 64,120.1 C 32,120.1 5.9,94.1 5.9,62 5.9,29.9 32,4 64,4 c 32,0 58.1,26 58.1,58.1 0,32.1 -26.1,58 -58.1,58 z"
+             id="path7344" />
+          <path
+             style="fill:#0ca0db"
+             inkscape:connector-curvature="0"
+             class="st2"
+             d="m 64,8 c 29.8,0 54.1,24.3 54.1,54.1 0,29.8 -24.3,54.1 -54.1,54.1 C 34.2,116.2 9.9,91.9 9.9,62.1 9.9,32.3 34.2,8 64,8 M 64,0 V 0 C 29.7,0 1.9,27.8 1.9,62.1 v 0 c 0,34.3 27.8,62.1 62.1,62.1 v 0 c 34.3,0 62.1,-27.8 62.1,-62.1 v 0 C 126.1,27.8 98.3,0 64,0 Z"
+             id="path7346" />
+        </g>
+        <g
+           id="g7352">
+          <path
+             style="fill:#0c71a5"
+             inkscape:connector-curvature="0"
+             class="st0"
+             d="m 13.6,65.6 c 0,-29.7 24.2,-54 54,-54 13.9,0 26.6,5.3 36.2,13.9 C 94,14.7 79.7,7.7 63.8,7.7 c -29.7,0 -54,24.2 -54,54 0,15.9 6.9,30.1 17.8,40 -8.8,-9.4 -14,-22.2 -14,-36.1 z"
+             id="path7350" />
+        </g>
+        <g
+           id="g7358">
+          <g
+             id="g7356">
+            <path
+               style="fill:#0c71a5"
+               inkscape:connector-curvature="0"
+               class="st0"
+               d="m 93.3,43.3 c 0,7.2 -5.4,14.3 -13.3,15.2 -1.4,0.2 -2.8,0.2 -4.2,0.5 -4.5,0.9 -6.5,6.4 -3.5,9.9 1.2,1.4 2.9,1.9 4.8,2.1 1.9,0.2 3.9,0.3 5.8,0.9 5.8,2 9.2,6.2 10.2,12.2 1.3,8.2 -4.2,15.6 -11.9,17.4 -8.4,1.9 -17.1,-3.8 -18.6,-12.2 -0.7,-3.7 0.1,-7.1 1.7,-10.4 0.7,-1.4 1.3,-2.7 1.2,-4.3 C 65.4,72.1 63.8,70 61.2,69.1 59,68.3 56.5,69.1 55,71 54,72.2 53.2,73.6 52.2,74.8 48.2,79.6 43,81.3 37,79.9 30.9,78.5 27,74.6 25.5,68.6 23.3,60 28.8,51.3 37.4,49.7 c 6.4,-1.2 11.6,0.9 15.5,6.1 0.8,1.1 1.5,2.4 2.5,3.3 3.2,3.2 8.9,1.6 10,-2.7 0.4,-1.7 0.1,-3.3 -0.7,-4.9 -1.5,-2.8 -2.5,-5.7 -2.4,-8.9 0.3,-7.4 6.1,-13.7 13.4,-14.6 8.2,-1.1 15.8,4.3 17.3,12.6 0.2,0.8 0.2,1.7 0.3,2.7 z"
+               id="path7354" />
+          </g>
+        </g>
+        <g
+           id="g7364">
+          <g
+             id="g7362">
+            <path
+               style="fill:#0ca0db"
+               inkscape:connector-curvature="0"
+               class="st2"
+               d="m 90.7,40.7 c 0,7.2 -5.4,14.3 -13.3,15.2 -1.4,0.2 -2.8,0.2 -4.2,0.5 -4.5,0.9 -6.5,6.4 -3.5,9.9 1.2,1.4 2.9,1.9 4.8,2.1 1.9,0.2 3.9,0.3 5.8,0.9 5.8,2 9.2,6.2 10.2,12.2 1.3,8.2 -4.2,15.6 -11.9,17.4 C 70.2,100.8 61.5,95.1 60,86.7 59.3,83 60.1,79.6 61.7,76.3 62.4,74.9 63,73.6 62.9,72 c -0.1,-2.5 -1.7,-4.6 -4.3,-5.5 -2.2,-0.8 -4.7,0 -6.2,1.9 -1,1.2 -1.8,2.6 -2.8,3.8 -4,4.8 -9.2,6.5 -15.2,5.1 C 28.3,75.9 24.4,72 22.9,66 20.7,57.4 26.2,48.7 34.8,47.1 c 6.4,-1.2 11.6,0.9 15.5,6.1 0.8,1.1 1.5,2.4 2.5,3.3 3.2,3.2 8.9,1.6 10,-2.7 0.4,-1.7 0.1,-3.3 -0.7,-4.9 -1.5,-2.8 -2.5,-5.7 -2.4,-8.9 0.3,-7.4 6.1,-13.7 13.4,-14.6 8.2,-1.1 15.8,4.3 17.3,12.6 0.2,0.8 0.3,1.7 0.3,2.7 z"
+               id="path7360" />
+          </g>
+        </g>
+      </g>
+      <g
+         transform="matrix(0.51804702,0,0,0.51804697,21.51599,111.44492)"
+         id="g7669">
+        <g
+           id="g7636">
+          <path
+             style="fill:#818182"
+             inkscape:connector-curvature="0"
+             class="st0"
+             d="M 64,128 C 28.7,128 0,99.3 0,64 0,28.7 28.7,0 64,0 c 35.3,0 64,28.7 64,64 0,35.3 -28.7,64 -64,64 z"
+             id="path7634" />
+        </g>
+        <g
+           id="g7642">
+          <path
+             style="fill:#939393"
+             inkscape:connector-curvature="0"
+             class="st1"
+             d="M 64,120.1 C 32,120.1 5.9,94.1 5.9,62 5.9,29.9 32,4 64,4 c 32,0 58.1,26 58.1,58.1 0,32.1 -26.1,58 -58.1,58 z"
+             id="path7638" />
+          <path
+             style="fill:#bcbcbc"
+             inkscape:connector-curvature="0"
+             class="st2"
+             d="m 64,8 c 29.8,0 54.1,24.3 54.1,54.1 0,29.8 -24.3,54.1 -54.1,54.1 C 34.2,116.2 9.9,91.9 9.9,62.1 9.9,32.3 34.2,8 64,8 M 64,0 V 0 C 29.7,0 1.9,27.8 1.9,62.1 v 0 c 0,34.3 27.8,62.1 62.1,62.1 v 0 c 34.3,0 62.1,-27.8 62.1,-62.1 v 0 C 126.1,27.8 98.3,0 64,0 Z"
+             id="path7640" />
+        </g>
+        <g
+           id="g7646">
+          <path
+             style="fill:#818182"
+             inkscape:connector-curvature="0"
+             class="st0"
+             d="m 13.6,65.6 c 0,-29.8 24.2,-54 54,-54 13.9,0 26.6,5.3 36.2,13.9 C 93.9,14.6 79.6,7.7 63.8,7.7 c -29.8,0 -54,24.2 -54,54 0,15.9 6.9,30.1 17.8,40 -8.8,-9.5 -14,-22.2 -14,-36.1 z"
+             id="path7644" />
+        </g>
+        <polygon
+           style="fill:#818182"
+           class="st0"
+           points="65.8,82 70.3,65 81,61.2 83.6,51.2 83.5,51 73.1,54.8 80.6,26.4 59.2,26.4 49.3,63.5 41.1,66.5 38.4,76.7 46.6,73.7 40.8,95.6 97.7,95.6 101.4,82 "
+           id="polygon7648" />
+        <polygon
+           style="fill:#bcbcbc"
+           class="st2"
+           points="63.2,79.3 67.7,62.4 78.3,58.5 80.9,48.5 80.8,48.3 70.4,52.1 77.9,23.7 56.5,23.7 46.7,60.8 38.4,63.8 35.7,74 43.9,71 38.1,92.9 95.1,92.9 98.7,79.3 "
+           id="polygon7650" />
+      </g>
+      <g
+         transform="matrix(0.51804702,0,0,0.51804702,21.51599,206.69488)"
+         id="g7960">
+        <g
+           id="g7888">
+          <path
+             style="fill:#c64a27"
+             inkscape:connector-curvature="0"
+             class="st0"
+             d="M 64,128 C 28.7,128 0,99.3 0,64 0,28.7 28.7,0 64,0 c 35.3,0 64,28.7 64,64 0,35.3 -28.7,64 -64,64 z"
+             id="path7886" />
+        </g>
+        <g
+           id="g7894">
+          <path
+             style="fill:#d35127"
+             inkscape:connector-curvature="0"
+             class="st1"
+             d="M 64,120.1 C 32,120.1 5.9,94.1 5.9,62 5.9,29.9 32,4 64,4 c 32,0 58.1,26 58.1,58.1 0,32.1 -26.1,58 -58.1,58 z"
+             id="path7890" />
+          <path
+             style="fill:#f16924"
+             inkscape:connector-curvature="0"
+             class="st2"
+             d="m 64,8 c 29.8,0 54.1,24.3 54.1,54.1 0,29.8 -24.3,54.1 -54.1,54.1 C 34.2,116.2 9.9,91.9 9.9,62.1 9.9,32.3 34.2,8 64,8 M 64,0 V 0 C 29.7,0 1.9,27.8 1.9,62.1 v 0 c 0,34.3 27.8,62.1 62.1,62.1 v 0 c 34.3,0 62.1,-27.8 62.1,-62.1 v 0 C 126.1,27.8 98.3,0 64,0 Z"
+             id="path7892" />
+        </g>
+        <g
+           id="g7898">
+          <path
+             style="fill:#c64a27"
+             inkscape:connector-curvature="0"
+             class="st0"
+             d="m 13.2,66 c 0,-29.9 24.4,-54.3 54.3,-54.3 14,0 26.8,5.3 36.4,14 C 94,14.8 79.6,7.8 63.6,7.8 33.7,7.8 9.3,32.2 9.3,62.1 c 0,16 6.9,30.3 17.9,40.3 C 18.5,92.8 13.2,80 13.2,66 Z"
+             id="path7896" />
+        </g>
+        <g
+           id="g7902">
+          <path
+             style="fill:#c64a27"
+             inkscape:connector-curvature="0"
+             class="st0"
+             d="M 64,128 C 28.7,128 0,99.3 0,64 0,28.7 28.7,0 64,0 c 35.3,0 64,28.7 64,64 0,35.3 -28.7,64 -64,64 z"
+             id="path7900" />
+        </g>
+        <g
+           id="g7908">
+          <path
+             style="fill:#d35127"
+             inkscape:connector-curvature="0"
+             class="st1"
+             d="M 64,120.1 C 32,120.1 5.9,94.1 5.9,62 5.9,29.9 32,4 64,4 c 32,0 58.1,26 58.1,58.1 0,32.1 -26.1,58 -58.1,58 z"
+             id="path7904" />
+          <path
+             style="fill:#f16924"
+             inkscape:connector-curvature="0"
+             class="st2"
+             d="m 64,8 c 29.8,0 54.1,24.3 54.1,54.1 0,29.8 -24.3,54.1 -54.1,54.1 C 34.2,116.2 9.9,91.9 9.9,62.1 9.9,32.3 34.2,8 64,8 M 64,0 V 0 C 29.7,0 1.9,27.8 1.9,62.1 v 0 c 0,34.3 27.8,62.1 62.1,62.1 v 0 c 34.3,0 62.1,-27.8 62.1,-62.1 v 0 C 126.1,27.8 98.3,0 64,0 Z"
+             id="path7906" />
+        </g>
+        <g
+           id="g7912">
+          <path
+             style="fill:#c64a27"
+             inkscape:connector-curvature="0"
+             class="st0"
+             d="m 13.6,65.6 c 0,-29.7 24.2,-54 54,-54 13.9,0 26.6,5.3 36.2,13.9 C 94,14.7 79.7,7.7 63.8,7.7 c -29.7,0 -54,24.2 -54,54 0,15.9 6.9,30.1 17.8,40 -8.8,-9.4 -14,-22.2 -14,-36.1 z"
+             id="path7910" />
+        </g>
+        <g
+           id="g7922">
+          <g
+             id="g7916">
+            <path
+               style="fill:#c64a27"
+               inkscape:connector-curvature="0"
+               class="st0"
+               d="M 67,70 C 58.4,61.5 50,53 41.5,44.5 c 0,11 0,21.9 0,32.8 -0.3,0 -0.5,0 -0.7,0 -3.4,0 -6.9,0 -10.3,0 -0.5,0 -0.7,-0.1 -0.9,-0.6 C 28.2,72 27.6,67.2 27.9,62.3 28.5,54 31.4,46.5 36.7,40.1 42.6,32.9 50.2,28.3 59.3,26.6 71.5,24.3 82.5,27.1 92,35 c 7.3,6 11.7,13.8 13.4,23.1 1.1,6.3 0.7,12.5 -1.2,18.6 -0.2,0.5 -0.4,0.7 -0.9,0.7 -3.4,0 -6.9,0 -10.3,0 -0.2,0 -0.4,0 -0.7,0 0,-10.9 0,-21.8 0,-32.7 C 83.9,53.1 75.5,61.5 67,70 Z"
+               id="path7914" />
+          </g>
+          <g
+             id="g7920">
+            <path
+               style="fill:#c64a27"
+               inkscape:connector-curvature="0"
+               class="st0"
+               d="m 33.6,85.3 c 5.4,0 10.9,0 16.4,0 0,-6.9 0,-13.7 0,-20.6 5.7,5.7 11.3,11.3 16.9,16.9 5.7,-5.7 11.3,-11.3 17,-16.9 0,6.9 0,13.7 0,20.6 5.5,0 10.9,0 16.5,0 -3.2,5.2 -7.3,9.4 -12.3,12.6 -5,3.2 -10.5,5.2 -16.4,5.9 -18.2,2.1 -32.2,-8.1 -38.1,-18.5 z"
+               id="path7918" />
+          </g>
+        </g>
+        <g
+           id="g7928">
+          <path
+             style="fill:#f16924"
+             inkscape:connector-curvature="0"
+             class="st2"
+             d="m 64.1,67.1 c -8.6,-8.5 -17,-17 -25.5,-25.5 0,11 0,21.9 0,32.8 -0.3,0 -0.5,0 -0.7,0 -3.4,0 -6.9,0 -10.3,0 -0.5,0 -0.7,-0.1 -0.9,-0.6 -1.4,-4.7 -2,-9.5 -1.7,-14.4 0.6,-8.3 3.5,-15.8 8.8,-22.2 5.9,-7.2 13.5,-11.8 22.6,-13.5 12.2,-2.3 23.2,0.5 32.7,8.4 7.3,6 11.7,13.8 13.4,23.1 1.1,6.3 0.7,12.5 -1.2,18.6 -0.2,0.5 -0.4,0.7 -0.9,0.7 -3.4,0 -6.9,0 -10.3,0 -0.2,0 -0.4,0 -0.7,0 0,-10.9 0,-21.8 0,-32.7 C 81,50.2 72.5,58.6 64.1,67.1 Z"
+             id="path7924" />
+          <path
+             style="fill:#f16924"
+             inkscape:connector-curvature="0"
+             class="st2"
+             d="m 30.6,82.4 c 5.4,0 10.9,0 16.4,0 0,-6.9 0,-13.7 0,-20.6 5.7,5.6 11.3,11.2 17,16.9 5.7,-5.7 11.3,-11.3 17,-16.9 0,6.9 0,13.7 0,20.6 5.5,0 10.9,0 16.5,0 -3.2,5.2 -7.3,9.4 -12.3,12.6 -5,3.2 -10.5,5.2 -16.4,5.9 C 50.6,103 36.6,92.8 30.6,82.4 Z"
+             id="path7926" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <style
+     id="style6672"
+     type="text/css">
+	.st0{fill:#C46D29;}
+	.st1{fill:#DC8127;}
+	.st2{fill:#F9A036;}
+</style>
+  <style
+     id="style6972"
+     type="text/css">
+	.st0{fill:#5762A0;}
+	.st1{fill:#636DAA;}
+	.st2{fill:#8A92C8;}
+</style>
+  <style
+     id="style7338"
+     type="text/css">
+	.st0{fill:#0C71A5;}
+	.st1{fill:#0D87BF;}
+	.st2{fill:#0CA0DB;}
+</style>
+  <style
+     id="style7632"
+     type="text/css">
+	.st0{fill:#818182;}
+	.st1{fill:#939393;}
+	.st2{fill:#BCBCBC;}
+</style>
+  <style
+     id="style7884"
+     type="text/css">
+	.st0{fill:#C64A27;}
+	.st1{fill:#D35127;}
+	.st2{fill:#F16924;}
+</style>
+</svg>

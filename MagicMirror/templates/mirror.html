@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/static/css/main.css">
+  <link rel="stylesheet" href="/static/css/weather.css">
+  <link rel="stylesheet" href="/static/css/news.css">
+  <link rel="stylesheet" href="/static/css/clock.css">
+  <link rel="stylesheet" href="/static/css/calendar.css">
+  <link rel="stylesheet" href="/static/css/notify.css">
+  <link rel="stylesheet" href="/static/css/face.css">
+  <link rel="stylesheet" href="/static/css/bitcoin.css">
+  <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+  <link rel="stylesheet" href="/static/css/swipe.css">
+  <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+</head>
+
+<body>
+    <div id="slider" class="swipe" style="visibility:visible;">
+        <div class="swipe-wrap">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <!-- Home screen -->
+                <div class="carousel-item active" style="min-height: 1160px;">
+                      <a class="weatherwidget-io" href="https://forecast7.com/en/10d2276d41/mookkannoor/" data-label_1="Mookkanoor"
+                      data-icons="Climacons Animated" data-theme="dark"></a>
+                    <div class="ticker__viewport">
+                        <ul class="ticker__list" data-ticker="list">
+                            <li class="ticker__item" data-ticker="item">{{ news1[0] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news1[1] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news1[2] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news1[3] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news1[4] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news1[5] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news1[6] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news1[7] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news1[8] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news1[9] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news2[0] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news2[1] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news2[2] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news2[3] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news2[4] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news2[5] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news2[6] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news2[7] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news2[8] }}</li>
+                            <li class="ticker__item" data-ticker="item">{{ news2[9] }}</li>
+                        </ul>
+                    </div>
+                    <main>
+                      <!-- CLOCK -->
+                      <div class="clock">
+                        <!-- DAY OF THE WEEK -->
+                      <div class="days">
+                          <div class="day">
+                            <p class="sunday">sunday</p>
+                          </div>
+                          <div class="day">
+                            <p class="monday">monday</p>
+                          </div>
+                          <div class="day">
+                            <p class="tuesday">tuesday</p>
+                          </div>
+                          <div class="day">
+                            <p class="wednesday">wednesday</p>
+                          </div>
+                          <div class="day">
+                            <p class="thursday">thursday</p>
+                          </div>
+                          <div class="day">
+                            <p class="friday">friday</p>
+                          </div>
+                          <div class="day">
+                            <p class="saturday">saturday</p>
+                          </div>
+                        </div>
+                        <!-- HOUR -->
+                        <div class="numbers">
+                          <p class="hours"></p>
+                          <p class="placeholder">88</p>
+                        </div>
+                  
+                        <div class="colon">
+                          <p>:</p>
+                        </div>
+                  
+                        <!-- MINUTE -->
+                        <div class="numbers">
+                          <p class="minutes"></p>
+                          <p class="placeholder">88</p>
+                        </div>
+                  
+                        <div class="colon">
+                          <p>:</p>
+                        </div>
+                  
+                        <!-- SECOND -->
+                        <div class="numbers">
+                          <p class="seconds"></p>
+                          <p class="placeholder">88</p>
+                        </div>
+                  
+                        <!-- AM / PM -->
+                        <div class="am-pm">
+                  
+                          <!-- AM -->
+                          <div>
+                            <p class="am">am</p>
+                          </div>
+                  
+                          <!-- PM -->
+                          <div>
+                            <p class="pm">pm</p>
+                          </div>
+                        </div>
+                  
+                      </div><!-- END CLOCK -->
+                    </main>
+                    <div class="notification" style="margin-left: 43rem;margin-top: -40rem;">
+                      <pre id="content"></pre>
+                    </div>
+                    <div>
+                      
+                      <div class="auto-jsCalendar" style="margin-left:-4rem;"></div>
+                      <div id="main"></div>
+                      <div id="name"></div>
+                      <div id="emotion" style="font-size:"></div>
+                      <!-- <p>Google Calendar API Quickstart</p> -->
+
+                      <button id="authorize_button" style="display: none;color:#fff;margin-left:300px;">Authorize</button>
+                      <!-- <button id="signout_button" style="display: none;color:#fff;margin-left:15rem;">Sign Out</button> -->
+                      <!-- <p id="content" style="white-space: pre-wrap;color:#fff;font-size: 1.5rem;"></p> -->
+                    </div>
+                    <div class="bitcoin">
+                        <img src="/static/img/bitcoin.svg" width="300px">
+                        <div id="BTC"></div>
+                        <div id="ETH"></div>
+                        <div id="XRP"></div>
+                        <div id="LTC"></div>
+                        <div id="XMR"></div>
+                      </div>
+                </div>
+                <!-- IOT Controls -->
+                <div class="carousel-item" style="min-height: 1160px;padding-left:11rem;">
+                  <div class="row" style="margin-left:3rem;">
+                    <div id="iot-1" class="iot-item text-center" >
+                      <i class="fas fa-tv"></i>
+                      <p>Master Bedroom </p>
+                    </div>
+                    <div id="iot-2" class="iot-item text-center">
+                        <!-- <img class="iot-svg" width= "80px" height="40px" src="static/img/ac.svg"> -->
+                        <i class="fas fa-tv"></i>
+                      <p style="padding-top:0.3rem ">Master Bedroom</p>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-left:3rem;">
+                      <div id="iot-3" class="iot-item text-center">
+                          <i class="far fa-lightbulb"></i>
+                          <p>Master Bedroom</p>
+                      </div>
+                      <div id="iot-4" class="iot-item text-center">
+                          <i class="far fa-lightbulb"></i>
+                          <p>Living Room</p>
+                      </div>
+                  </div>
+                  <div class="row" style="margin-left:3rem;">
+                      <div id="iot-5" class="iot-item text-center">
+                          <!-- <img class="iot-svg" width= "80px" height="40px" src="static/img/ac.svg"> -->
+                          <i class="far fa-lightbulb"></i>
+                          <p>Living Room</p>
+                      </div>
+                      <div id="iot-6" class="iot-item text-center" >
+                          <!-- <img class="iot-svg"  width= "45px" height="70px" src="static/img/fan.svg"> -->
+                          <i class="far fa-lightbulb"></i>
+                          <p style="padding-top:0.5rem;">Living Room</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class="XMLID_1_event4"></div>
+      <div class="XMLID_2_event4"></div>
+    </div>
+  </div>
+  <div id="main"></div>
+  <div id="name"></div>
+    <script src="script.js"></script>
+
+    <script type="text/javascript">
+      // Client ID and API key from the Developer Console
+      var CLIENT_ID = '304465699151-j29keda29161t05jcr6kucohl9h2tqee.apps.googleusercontent.com';
+      var API_KEY = 'AIzaSyAnHYDSDDDAx7nEpOp3QWnYu9jdphxIqGk';
+
+      // Array of API discovery doc URLs for APIs used by the quickstart
+      var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
+
+      // Authorization scopes required by the API; multiple scopes can be
+      // included, separated by spaces.
+      var SCOPES = "https://www.googleapis.com/auth/calendar.readonly";
+
+      var authorizeButton = document.getElementById('authorize_button');
+      var signoutButton = document.getElementById('signout_button');
+
+      /**
+       *  On load, called to load the auth2 library and API client library.
+       */
+      function handleClientLoad() {
+        gapi.load('client:auth2', initClient);
+      }
+
+      /**
+       *  Initializes the API client library and sets up sign-in state
+       *  listeners.
+       */
+      function initClient() {
+        gapi.client.init({
+          apiKey: API_KEY,
+          clientId: CLIENT_ID,
+          discoveryDocs: DISCOVERY_DOCS,
+          scope: SCOPES
+        }).then(function () {
+          // Listen for sign-in state changes.
+          gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
+
+          // Handle the initial sign-in state.
+          updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+          authorizeButton.onclick = handleAuthClick;
+          signoutButton.onclick = handleSignoutClick;
+        }, function(error) {
+          appendPre(JSON.stringify(error, null, 2));
+        });
+      }
+
+      /**
+       *  Called when the signed in status changes, to update the UI
+       *  appropriately. After a sign-in, the API is called.
+       */
+      function updateSigninStatus(isSignedIn) {
+        if (isSignedIn) {
+          authorizeButton.style.display = 'none';
+          signoutButton.style.display = 'block';
+          listUpcomingEvents();
+        } else {
+          authorizeButton.style.display = 'block';
+          signoutButton.style.display = 'none';
+        }
+      }
+
+      /**
+       *  Sign in the user upon button click.
+       */
+      function handleAuthClick(event) {
+        gapi.auth2.getAuthInstance().signIn();
+      }
+
+      /**
+       *  Sign out the user upon button click.
+       */
+      function handleSignoutClick(event) {
+        gapi.auth2.getAuthInstance().signOut();
+      }
+
+      /**
+       * Append a pre element to the body containing the given message
+       * as its text node. Used to display the results of the API call.
+       *
+       * @param {string} message Text to be placed in pre element.
+       */
+      function appendPre(message) {
+        var pre = document.getElementById('content');
+        pre.innerHTML=message;
+      }
+
+      /**
+       * Print the summary and start datetime/date of the next ten events in
+       * the authorized user's calendar. If no events are found an
+       * appropriate message is printed.
+       */
+      function listUpcomingEvents(date) {
+        gapi.client.calendar.events.list({
+          'calendarId': 'primary',
+          'timeMin': (new Date(date)).toISOString(),
+          'showDeleted': false,
+          'singleEvents': true,
+          'maxResults': 10,
+          'orderBy': 'startTime'
+        }).then(function(response) {
+          var events = response.result.items;
+          message="Upcoming events:";
+          if (events.length > 0) {
+            for (i = 0; i < events.length; i++) {
+              var event = events[i];
+              var when = event.start.dateTime;
+              if (!when) {
+                when = event.start.date;
+              }
+              date_split=date.toString().split(" ")
+              iterDate=new Date(when);
+              iterDate_split=iterDate.toString().split(" ")
+              if (date_split[0] == iterDate_split[0] && date_split[1] == iterDate_split[1] && date_split[2] == iterDate_split[2] && date_split[3] == iterDate_split[3]){
+                message+= event.summary +'\n';
+              }
+            }
+            appendPre(message);
+          } else {
+            appendPre('No upcoming events found.');
+          }
+        });
+      }
+    </script>
+    <script src="calendar.js"></script>
+    <script async defer src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+  <script src="/static/js/jquery-3.4.1.min.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
+  <script src="/static/js/main.js"></script>
+  <script src="/static/js/calendar.js"></script>
+  <script src="/static/js/random.js"></script>
+  <script src="/static/js/weather.js"></script>
+  <script src="/static/js/clock.js"></script>
+  <script src="/static/js/news.js"></script>
+  <script src="/static/js/bitcoin.js"></script>
+  <script>
+      $('.carousel').carousel({
+        interval: false
+      })
+  </script>
+  <script>
+    window.mySwipe = $('#mySwipe').Swipe().data('Swipe');
+  </script>
+</body>
+</html>

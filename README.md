@@ -1,2 +1,5 @@
-# iris
-it's an intelligent mirror with face recognition , emotion and weather forecasting And also an voice integrated IOT home automation 
+# IRIS (Intelligent Realtime Interactive system)
+ An interactive mirror showing live news updates, weather forecasting, calendar, time and so on. It can also answer user’s queries and can recognise people as well as their emotions using Deep Learning and image processing technologies
+
+https://youtu.be/iwj1KKV0Vuo
+

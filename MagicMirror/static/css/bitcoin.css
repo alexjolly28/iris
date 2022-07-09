@@ -1,0 +1,43 @@
+@font-face{
+    font-family: "value";
+    src: url("/static/fonts/Audiowide-Regular.ttf")
+}
+.bitcoin{
+   margin-top: -625px;
+   margin-left: 0px;
+}
+#BTC{
+    font-family: 'value';
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-top: -13em;
+    margin-left: 7rem;
+}
+#ETH{
+    font-family: 'value';
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-top: 1em;
+    margin-left: 7rem;
+}
+#XRP{
+    font-family: 'value';
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-top: 1.3em;
+    margin-left: 7rem;
+}
+#LTC{
+    font-family: 'value';
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-top: 1.1em;
+    margin-left: 7rem;
+}
+#XMR{
+    font-family: 'value';
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-top: 1.2em;
+    margin-left: 7rem;
+}
